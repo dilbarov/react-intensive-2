@@ -20,9 +20,8 @@ const StyledLink = styled.a`
 class Link extends Component{
     render() {
         return (
-            <StyledLink href={this.props.link}> {this.props.text} </StyledLink>
+            <StyledLink href={this.props.link} > {this.props.text} </StyledLink>
         )
     }
 }
-
 export default Link;
